@@ -4,6 +4,5 @@ nameInput.addEventListener("input", (event) => {
 	if (event.target.value === "") {
 		return (nameOutput.innerHTML = "Anonymous");
 	}
-	console.log(event.target.value);
 	nameOutput.innerHTML = event.target.value;
 });
